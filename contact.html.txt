@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My Parmanent Address</p>
+    <p>9518165164</p>
+    <p>rahulsinghmar1@gmail.com</p> <hr size="2">
+    <form action="mailto:rahulsinghmar1@gmail.com" method="post" enctype="text/plain">
+        <label for="">Want to contact us : </label>
+        <input type="radio"><br>
+        <label>Name : </label>
+        <input type="text" name="Your name"><br>
+        <label for="">Your email : </label>
+        <input type="email" name="Your email"><br>
+        <label for="">Message</label><br>
+        <textarea cols="30" rows="10" name="Message"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
